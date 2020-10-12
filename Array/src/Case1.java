@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 求两个数组的交集
@@ -20,7 +22,7 @@ public class Case1 {
     }
 
     /**
-     * 求两个数组交集
+     * 求两个数组交集统计次数
      *
      * @param array1
      * @param array2
