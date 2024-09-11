@@ -11,15 +11,12 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class Case1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入数组：");
-        while (scanner.hasNext()) {
-            int[] array1 = string2IntArray(scanner.next());
-            int[] array2 = string2IntArray(scanner.next());
-            System.out.println(Arrays.toString(intersectionArray(array1, array2)));
-            System.exit(1);
-        }
+        Long value = 18325270340l;
+
     }
+
+
+
 
     /**
      * 求两个数组交集统计次数
